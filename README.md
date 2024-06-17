@@ -1,20 +1,18 @@
 # Real-Time Face Tracking System
 
 ## 1. Introduction
-
 The objective of this assignment is to create a real-time face tracking system that detects and tracks faces within a video stream. This document outlines the research, implementation steps, testing procedures, and final deliverables.
 
 ## 2. Research and Exploration
 
 ### Libraries and Models
-
-#### Identified Libraries:
+**Identified Libraries:**
 - **YOLO (You Only Look Once):** Fast and accurate object detection.
-- **Mediapipe:** Provides high-fidelity solutions for face and hand tracking modules developed by Google.
+- **Mediapipe:** Provides high-fidelity solutions for face and hand tracking, developed by Google.
 - **OpenCV:** Widely used for computer vision tasks.
 - **GANs (Generative Adversarial Networks):** Advanced models for generating realistic images.
 
-### Evaluation Metrics:
+**Evaluation Metrics:**
 - **Accuracy:** The precision of face detection.
 - **Speed:** The latency of the system.
 - **Ease of Integration:** Simplicity in incorporating the library into the system.
@@ -22,21 +20,19 @@ The objective of this assignment is to create a real-time face tracking system t
 After evaluating the libraries, Mediapipe was chosen for its balance of accuracy, speed, and ease of integration.
 
 ## 3. Basic Face Tracking Implementation
-
-### Single Face Detection and Tracking
-Implemented a basic face detection algorithm using Mediapipe.
-
-**Github Repo:** [Link to Repository]
+**Single Face Detection and Tracking**
+- Implemented a basic face detection algorithm using Mediapipe.
+- [GitHub Repo](https://github.com/Subham-u/Face-Tracking/blob/main/Basic.py)
 
 ## 4. Intermediate Face Tracking
-
-### Prototype Development
-Developed a prototype application demonstrating real-time face detection and tracking with visual feedback (bounding boxes).
+**Prototype Development**
+- Developed a prototype application demonstrating real-time face detection and tracking with visual feedback (bounding boxes).
+- [GitHub Repo](https://github.com/Subham-u/Face-Tracking/blob/main/Intermediate.py)
 
 ## 5. Advanced Face Tracking
-
-### Multi-Face Detection and Tracking
-Modified the algorithm to handle multiple faces using Mediapipe, which supports multiple face detection out of the box.
+**Multi-face Detection and Tracking**
+- Modified the algorithm to handle multiple faces using Mediapipe, which supports multiple face detection out of the box.
+- [GitHub Repo](https://github.com/Subham-u/Face-Tracking/blob/main/Advanced.py)
 
 ## 6. Testing and Benchmarks
 
@@ -55,7 +51,7 @@ The system was tested on a laptop with the following specifications:
 ## 7. Challenges and Solutions
 
 ### Challenges
-- **Real-Time Performance:** Ensuring the system runs in real-time without significant lag.
+- **Real-time Performance:** Ensuring the system runs in real-time without significant lag.
 - **Multiple Face Tracking:** Handling multiple faces simultaneously and ensuring each face is tracked accurately.
 
 ### Solutions
@@ -73,28 +69,32 @@ The real-time face tracking system was successfully developed using Mediapipe. I
 - Mediapipe
 - Terminal
 
-```sh
+```bash
 pip install opencv-python mediapipe
 ```
 
 ### Installation
 
-#### Step 1:
-```sh
-git clone https://github.com/company/somerepo.git
-```
-
-#### Step 2:
-```sh
-cd /opt/myproject
-pip install -r requirements.txt
-```
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Subham-u/Face-Tracking.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Face-Tracking
+    ```
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Running the Application
-Save the provided code into a Python script (e.g., `face_tracking.py`) and run it:
+Save the provided code into a Python script and run it:
 
-```sh
-python face_tracking.py
+```bash
+python Basic.py  # or python3 Basic.py
+python Intermediate.py  # or python3 Intermediate.py
+python Advanced.py  # or python3 Advanced.py
 ```
 
 ### Usage
@@ -103,8 +103,7 @@ python face_tracking.py
 
 ## 10. Final Deliverables
 
-### Submitted Materials
-- **Code:** All source code files.
-- **Resources:** Any additional resources used in the project.
+**Submitted Materials:**
+- **Code:** https://github.com/Subham-u/Face-Tracking
 - **Documentation:** This detailed report.
-- **Demonstration Video:** A short video demonstrating the code in action.
+- **Demonstration Video:** https://youtu.be/pGjFFZQKUaA
